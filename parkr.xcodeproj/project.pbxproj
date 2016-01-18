@@ -12,6 +12,7 @@
 		4992C7F91C4C5C3C005732A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4992C7F71C4C5C3C005732A1 /* Main.storyboard */; };
 		4992C7FB1C4C5C3C005732A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4992C7FA1C4C5C3C005732A1 /* Assets.xcassets */; };
 		4992C7FE1C4C5C3C005732A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4992C7FC1C4C5C3C005732A1 /* LaunchScreen.storyboard */; };
+		4992C80A1C4C5E07005732A1 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 4992C8091C4C5E07005732A1 /* car.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4992C7FA1C4C5C3C005732A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4992C7FD1C4C5C3C005732A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4992C7FF1C4C5C3C005732A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4992C8091C4C5E07005732A1 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = Resources/Images/car.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		4992C7E71C4C5C3C005732A1 = {
 			isa = PBXGroup;
 			children = (
+				4992C8061C4C5D96005732A1 /* Resources */,
 				4992C7F21C4C5C3C005732A1 /* parkr */,
 				4992C7F11C4C5C3C005732A1 /* Products */,
 			);
@@ -62,6 +65,22 @@
 				4992C7FF1C4C5C3C005732A1 /* Info.plist */,
 			);
 			path = parkr;
+			sourceTree = "<group>";
+		};
+		4992C8051C4C5D88005732A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4992C8091C4C5E07005732A1 /* car.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4992C8061C4C5D96005732A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4992C8051C4C5D88005732A1 /* Images */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +115,7 @@
 				TargetAttributes = {
 					4992C7EF1C4C5C3C005732A1 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = U79XAFS5SD;
 					};
 				};
 			};
@@ -122,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4992C80A1C4C5E07005732A1 /* car.png in Resources */,
 				4992C7FE1C4C5C3C005732A1 /* LaunchScreen.storyboard in Resources */,
 				4992C7FB1C4C5C3C005732A1 /* Assets.xcassets in Resources */,
 				4992C7F91C4C5C3C005732A1 /* Main.storyboard in Resources */,
@@ -247,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = parkr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markovantony.parkr;
@@ -258,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = parkr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.markovantony.parkr;
